@@ -10,6 +10,6 @@ describe('App', () => {
 
   it('should have a greeting as the title', () => {
     const { getAllByText } = render(<App />);
-    expect(getAllByText(new RegExp('Welcome second-app', 'gi')).length > 0).toBeTruthy();
+    expect(getAllByText(new RegExp('Hello Second App', 'gi')).length > 0).toBeTruthy();
   });
 });
