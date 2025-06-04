@@ -8,6 +8,15 @@
     },
     {
       "path": "./apps/first-app"
+    },
+    {
+      "path": "./apps/second-app-e2e"
+    },
+    {
+      "path": "./apps/second-app"
+    },
+    {
+      "path": "./libs/shared"
     }
   ]
 }

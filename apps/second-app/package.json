@@ -1,0 +1,8 @@
+{
+  "name": "@example/second-app",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "name": "second-app"
+  }
+}
