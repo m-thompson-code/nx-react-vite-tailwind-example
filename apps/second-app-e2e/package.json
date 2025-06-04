@@ -1,5 +1,5 @@
 {
-  "name": "second-app-e2e",
+  "name": "@example/second-app-e2e",
   "version": "0.0.1",
   "private": true,
   "scripts": {
