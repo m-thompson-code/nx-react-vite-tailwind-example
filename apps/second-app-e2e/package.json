@@ -6,5 +6,9 @@
     "implicitDependencies": [
       "second-app"
     ]
+  },
+  "scripts": {
+    "e2e": "playwright test",
+    "typecheck": "tsc --build --emitDeclarationOnly"
   }
 }

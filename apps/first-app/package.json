@@ -1,5 +1,13 @@
 {
   "name": "@example/first-app",
   "version": "0.0.1",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "serve": "vite",
+    "test": "vitest",
+    "typecheck": "tsc --build --emitDeclarationOnly"
+  }
 }

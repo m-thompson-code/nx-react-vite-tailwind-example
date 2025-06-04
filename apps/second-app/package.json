@@ -2,7 +2,12 @@
   "name": "@example/second-app",
   "version": "0.0.1",
   "private": true,
-  "nx": {
-    "name": "second-app"
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "serve": "vite",
+    "test": "vitest",
+    "typecheck": "tsc --build --emitDeclarationOnly"
   }
 }

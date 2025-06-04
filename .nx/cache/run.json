@@ -1,0 +1,9 @@
+{
+  "run": {
+    "command": "nx dev second-app",
+    "startTime": "2025-06-04T17:00:49.136Z",
+    "endTime": "2025-06-04T19:14:31.652Z",
+    "inner": false
+  },
+  "tasks": []
+}

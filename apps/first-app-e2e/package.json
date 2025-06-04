@@ -2,9 +2,8 @@
   "name": "@example/first-app-e2e",
   "version": "0.0.1",
   "private": true,
-  "nx": {
-    "implicitDependencies": [
-      "@example/first-app"
-    ]
+  "scripts": {
+    "e2e": "playwright test",
+    "typecheck": "tsc --build --emitDeclarationOnly"
   }
 }
