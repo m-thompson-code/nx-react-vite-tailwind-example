@@ -4,7 +4,7 @@ import { defineConfig, devices } from '@playwright/test';
 
 /* ported code */
 // import { workspaceRoot } from '@nx/devkit';
-const workspaceRoot = __dirname.replace('apps/first-app-e2e', '');
+const workspaceRoot = __dirname.replace('apps/second-app-e2e', '');
 // import { isUsingTsSolutionSetup } from '@nx/js/src/utils/typescript/ts-solution-setup';
 export function isUsingTsSolutionSetup(): boolean {
   // const tree = new FsTree(workspaceRoot, false);
@@ -115,6 +115,7 @@ export default defineConfig({
   /* Run your local dev server before starting the tests */
   webServer: {
     // command: 'npx nx run second-app:preview',
+    // TODO: Why doesn't this work as just 'npm run preview -w apps/second-app' like it is set up for first-app?
     command: 'npm run preview -w apps/second-app',
     url: 'http://localhost:4300',
     reuseExistingServer: true,
