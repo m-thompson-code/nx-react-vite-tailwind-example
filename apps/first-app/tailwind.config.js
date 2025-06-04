@@ -10,10 +10,10 @@ module.exports = {
     ),
     // TODO: "createGlobPatternsForDependencies" is supposed to figure this out for us, but I had to add it manually
     join(
-      '/Users/markthompson/Documents/github/nx-react-vite-stuff/example/libs/shared',
+      __dirname.replace('apps/first-app', 'libs/shared'),
       '{src,pages,components,app}/**/*!(*.stories|*.spec).{ts,tsx,html}'
     ),
-    ...createGlobPatternsForDependencies(__dirname),
+    // ...createGlobPatternsForDependencies(__dirname),
   ],
   theme: {
     extend: {},
