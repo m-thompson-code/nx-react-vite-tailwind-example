@@ -6,6 +6,8 @@ export function App() {
     <div className="bg-violet-100">
       <h1>Hello First App</h1>
       <Shared />
+      <h3>{import.meta.env.VITE_SOME_KEY}</h3>
+      <h4>{import.meta.env.DB_PASSWORD ?? 'DB_PASSWORD is not available on client'}</h4>
     {/* START: routes */}
     {/* These routes and navigation have been generated for you */}
     {/* Feel free to move and update them to fit your needs */}
